@@ -1,4 +1,4 @@
- #Potluck
+ Potluck
  
  Make a "toy" Sinatra app in a brand new project folder. Start building your own application, using similar techniques that your group project is using (e.g. testing, service classes, etc).
 
