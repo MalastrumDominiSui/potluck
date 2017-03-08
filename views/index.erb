@@ -4,16 +4,19 @@
 	<title>Potluck</title>
 </head>
 <body>
-	<form action="/event_set">
-		Please set the event <br>
-		<input type="text" name="event"><br>
-		<input type="submit" name="Submit"><br>
+	<form method="post" action="/login">
+		<span>
+			Username:
+			<input type="text" name="username"> 
+			Password:
+			<input type="password" name="password">
+		</span>
+
+    <button type="submit">Login</button><br><br>
 	</form>
 
 	<form action="/submit">
 		<fieldset>
-			Who are you?<br>
-			<input type="text" name="name"><br><br>
 			What food are you bringing to the event?<br>
 			<input type="text" name="food"><br><br>
 
