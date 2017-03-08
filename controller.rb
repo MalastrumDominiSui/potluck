@@ -8,4 +8,10 @@ end
 # submit food here
 get "/submit" do
 	binding.pry
+	redirect "/"
+end
+
+get "/event_set" do
+	session[:event] = params[:event]
+	binding.pry
 end
