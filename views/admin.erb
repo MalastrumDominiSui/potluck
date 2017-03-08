@@ -8,7 +8,7 @@
 		<button type="submit">Logout</button> 
 	</form>
 	<br>
-
+	<p>The current event is <%= session[:event]%></p>
 	<form action="/event_set">
 		Please set the event <br>
 		<input type="text" name="event">

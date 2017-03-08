@@ -12,7 +12,7 @@ end
 
 get "/event_set" do
 	session[:event] = params[:event]
-	binding.pry
+	erb :admin
 end
 
 post "/login" do
